@@ -1,0 +1,115 @@
+    /* ---- ESTILOS GENERALES ---- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ---- TARJETA DE REGISTRO ---- */
+.register-container {
+    background-color: #181818;
+    width: 380px;
+    padding: 40px;
+    border-radius: 24px;
+    border: 2px solid #00ff66; /* Marco verde neón idéntico al de tu web */
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 255, 102, 0.2);
+    box-sizing: border-box;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.register-header h2 {
+    color: #00ff66;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    text-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+.register-header p {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ---- CAMPOS DEL FORMULARIO ---- */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #121212;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #00ff66;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+/* ---- BOTÓN DE ENVÍO ---- */
+.btn-submit {
+    width: 100%;
+    background-color: #00ff66;
+    color: #121212;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 102, 0.4);
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #00cc52;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 255, 102, 0.6);
+}
+
+/* ---- PIE DE LA TARJETA ---- */
+.register-footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.register-footer a {
+    color: #00ff66;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.register-footer a:hover {
+    color: #00cc52;
+    text-decoration: underline;
+}
